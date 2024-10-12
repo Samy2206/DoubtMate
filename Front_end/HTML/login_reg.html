@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <link rel="stylesheet" href="../CSS/login_reg.css">
-    <link rel="shortcut icon" href="../Media/SB_logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../Media/DN_ICON.ico" type="image/x-icon">
 </head>
 <body>
     <div class="container">
     <form action="post" class="login_form">
         
-        <div id="sb_image"><img src="../Media/SB_logo.jpeg" alt="StudyBudddy" height="50px" height="50px" ></div>
+        <div id="sb_image"><img src="../Media/DN_ICON.png" alt="StudyBudddy" height="50px" height="50px" ></div>
+        <h2>StudyBuddy</h2>
         <fieldset class="fieldset_1">
             <legend>Login</legend>
             <label for="email">Email: </label> <input type="email" id="email" name="email" required placeholder="xyz@gmail.com"><br><br>
-            <label for="password">Password: </label> <input type="password" id="password" name="password" required placeholder="********">
+            <label for="password">Password: </label> <input type="password" id="password" name="password" required placeholder="********" >
             <br><br>
-            <select id="login_as">
+            <!-- <select id="login_as" required>
                 <option value="" disabled selected>Select</option>
                 <option value="Student">Student</option>
                 <option value="Teacher">Teacher</option>
-            </select>
+            </select> -->
             <div class="lg_button-container">
-                <button onclick="" id="login_button" style="margin-left: auto;">Login</button>
+                <a href="page_not_found/404.html" id="login_button" style="margin-left: auto; display: inline-block; padding: 10px 20px; text-align: center; background-color: #4CAF50; color: white; text-decoration: none; border: none; border-radius: 5px;">Login</a>
             </div>
         </fieldset>
         <fieldset style="text-align: center;">
-            <a href="register.html">New User Register Here</a>
+            <a href="page_not_found/404.html">New User Register Here</a>
         </fieldset>
     </form>
     </div>
